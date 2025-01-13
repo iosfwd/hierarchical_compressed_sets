@@ -12,6 +12,11 @@ cmake --build build
 
 # Running
 
+Use [Themisto](https://github.com/algbio/themisto) to create a colored
+de Bruijn graph and then use `themisto
+dump-distinct-color-sets-to-binary` to serialize the color sets in the
+binary format.
+
 Sorting color sets:
 ```
 build/sort_asc [color sets file] [sorted color sets file]
